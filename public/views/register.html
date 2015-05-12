@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Registration form</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css"/>
+</head>
+<body ng-app="sampleApp" ng-controller="UserController">
+<section>
+    <div id="wrapper">
+        <div id="register" class="animate form">
+            <form autocomplete="on" ng-submit="submit()" ng-controller="UserController">
+                <h1> Sign up </h1>
+
+                <p>
+                    <label for="username">Your username</label>
+                    <input id="username" required="required" type="text" placeholder="Enter your username"/>
+                </p>
+
+                <p>
+                    <label for="email"> Your email</label>
+                    <input id="email" required="required" type="email" placeholder="Enter your email"/>
+                </p>
+
+                <p>
+                    <label for="password">Your password </label>
+                    <input id="password" required="required" type="password" placeholder="Enter your password"/>
+                </p>
+
+                <p>
+                    <label for="password_confirm">Please confirm your
+                        password </label>
+                    <input id="password_confirm" required="required" type="password"
+                           placeholder="Confirm  your password"/>
+                </p>
+
+                <p class="change_link">
+                    Already a member ?
+                    <a href="#" class="to_register"> Log in </a>
+                </p>
+
+                <p class="login button">
+                    <input type="submit" value="Register"/>
+                </p>
+            </form>
+        </div>
+
+    </div>
+</section>
+</body>
+</html>

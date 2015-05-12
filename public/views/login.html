@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Login form</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css"/>
+</head>
+<body ng-app="sampleApp" ng-controller="SessionController">
+<section>
+    <div id="wrapper">
+        <div id="login" class="animate form">
+            <form ng-submit="submit()" ng-controller="SessionController" autocomplete="on">
+                <h1>Log in</h1>
+
+                <p>
+                    <label for="username"> Your email or username </label>
+                    <input id="username" required="required" type="text" placeholder="Your username or email"/>
+                </p>
+
+                <p>
+                    <label for="password"> Your password </label>
+                    <input id="password" required="required" type="password" placeholder="Your password"/>
+                </p>
+
+                <p class="keeplogin">
+                    <input type="checkbox" id="loginkeeping" value="loginkeeping"/>
+                    <label for="loginkeeping">Keep me logged in</label>
+                </p>
+
+                <p class="change_link">
+                    Not a member yet ?
+                    <a href="#" class="to_register">Register</a>
+                </p>
+
+                <p class="login button">
+                    <input type="submit" value="Login"/>
+                </p>
+            </form>
+        </div>
+    </div>
+</section>
+</body>
+</html>

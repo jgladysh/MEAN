@@ -1,0 +1,152 @@
+
+#wrapper {
+    margin: 0 auto;
+    min-height: 560px;
+    position: relative;
+    right: 0;
+    width: 500px;
+}
+
+#wrapper h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #9EACAF;
+}
+
+#wrapper p {
+    margin-bottom: 15px;
+}
+
+#wrapper p:first-child {
+    margin: 0;
+}
+
+#wrapper label {
+    color: rgb(64, 92, 96);
+    position: relative;
+}
+
+input {
+    outline: none;
+}
+
+#wrapper input:not([type="checkbox"]) {
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(168, 168, 168, 0.6) inset;
+    -moz-box-shadow: 0 1px 4px 0 rgba(168, 168, 168, 0.6) inset;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(168, 168, 168, 0.6) inset;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    margin-top: 4px;
+    padding: 10px;
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    width: 95%;
+    -webkit-appearance: textfield;
+}
+
+#wrapper input:not([type="checkbox"]):active,
+#wrapper input:not([type="checkbox"]):focus {
+    background: rgba(238, 236, 240, 0.2);
+    border: 1px solid rgba(91, 90, 90, 0.7);
+    box-shadow: 0 1px 4px 0 rgba(168, 168, 168, 0.9) inset;
+    -moz-box-shadow: 0 1px 4px 0 rgba(168, 168, 168, 0.9) inset;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(168, 168, 168, 0.9) inset;
+}
+
+#wrapper p.button input {
+    background: #C1DAD6;
+    background-image: -webkit-linear-gradient(top, #C1DAD6, #556e7d);
+    background-image: -moz-linear-gradient(top, #C1DAD6, #556e7d);
+    background-image: -ms-linear-gradient(top, #C1DAD6, #556e7d);
+    background-image: -o-linear-gradient(top, #C1DAD6, #556e7d);
+    background-image: linear-gradient(to bottom, #fff, #C1DAD6);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 3px #666666;
+    -moz-box-shadow: 0 1px 3px #666666;
+    box-shadow: 0 1px 3px #666666;
+    padding: 10px 5px;
+    border: #28474f 1px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+p.login.button,
+p.signin.button {
+    margin: 5px 0;
+    text-align: right;
+}
+
+.keeplogin {
+    margin-top: -5px;
+}
+
+.keeplogin input,
+.keeplogin label {
+    display: inline-block;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.keeplogin input#loginkeeping {
+    margin-right: 5px;
+}
+
+.keeplogin label {
+    width: 80%;
+}
+
+p.change_link {
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    color: rgb(127, 124, 124);
+    font-size: 16px;
+    height: 20px;
+    left: 0;
+    padding: 0 0 0 30px;
+    position: absolute;
+    text-align: left;
+    width: 300px;
+    font-style: italic;
+}
+
+#wrapper p.change_link a {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 2px 0;
+}
+
+#register,
+#login {
+    background: #F3E9DA;
+    border: 1px solid rgba(147, 184, 189, 0.8);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    -webkit-box-shadow: 5px;
+    margin: 0 0 35px 0;
+    padding: 0px 6%;
+    position: absolute;
+    top: 0px;
+    width: 88%;
+
+}
+
+#login {
+    z-index: 22;
+}

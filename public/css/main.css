@@ -1,0 +1,83 @@
+* {
+    color: #28474f;
+}
+
+.container {
+    background-color: #F5FAFA;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main {
+    background-color: #C1DAD6;
+    height: 100%;
+    overflow: auto;
+    padding-top: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    margin-top: 30px;
+    overflow: auto;
+    padding: 15px 0 20px;
+}
+
+.navbar ul {
+    border-top: 1px solid #28474f;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 90%;
+}
+
+.navbar ul li:first-child {
+    margin-left: 5%;
+    padding-left: 40px;
+}
+
+.rightNav :first-child {
+    margin-right: 5%;
+    padding-right: 40px;
+}
+
+.navbar ul li {
+    font-size: 1.5em;
+    list-style: disc outside none;
+    margin-left: 80px;
+    padding-left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.rightNav {
+    float: right;
+}
+
+.leftNav {
+    float: left;
+}
+
+#calendarWrapper {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+#hello {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
